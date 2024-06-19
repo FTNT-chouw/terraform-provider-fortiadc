@@ -18,6 +18,8 @@ Features
 
 - Fix bugs of fadcos_system_stream_scripting and fadcons_system_scripting
 
+- Revise the error examples for fortiadc_certificate_intmed_caupload and fortiadc_certificate_caupload
+
 - For changes in DNS settings starting from FortADC 7.4:  
   - for the root vdom, please use fadcos_system_global  
   - for non-root vdoms, please use fadcos_system_dns_vdom  
