@@ -1,33 +1,38 @@
 ---
-subcategory: "FortiADC System"
+subcategory: "FortiADC Security"
 layout: "fortiadc"
-page_title: "FortiADC: fortiadc_certificate_intmed_caupload"
+page_title: "FortiADC: fortiadc_security_waf_url_protection"
 description: |-
-  Upload fortiadc intermediate ca.
+  Configure security waf url protection.
 ---
 
-# fortiadc_certificate_intmed_caupload
-Upload fortiadc intermediate ca.
+# fortiadc_security_waf_url_protection
+Configure security waf url protection.
 
 ## Example Usage
 ```hcl
-resource "fortiadc_certificate_intmed_caupload" "intmed_caupload" {
-	mkey = "intemedca_global"
-	cert = "/root/terr_test/host.cert"
-	vdom = "global"
+resource "fortiadc_security_waf_url_protection" "security_waf_url_protection" {
+        mkey = "test"
 }
+
+
 ```
 
 ## Argument Reference
 
 The following arguments are supported:
 
-* `mkey` - name.
-* `cert` - cert file path.
 * `vdom` - Specifies the vdom to which the data source will be applied when the FortiADC unit is running in VDOM mode. Only one vdom can be specified. If you want to inherit the vdom configuration of the provider, please do not set this parameter.
+* `mkey` - The name of configuration.
+
 
 ## Attribute Reference
 
 In addition to all the above arguments, the following attributes are exported:
 * `id` - an identifier for the resource with format {{mkey}}.
 
+## Import
+ Security Waf Url Protection can be imported using any of these accepted formats:
+```
+$ terraform import fortiadc_security_waf_url_protection.labelname {{mkey}}
+```

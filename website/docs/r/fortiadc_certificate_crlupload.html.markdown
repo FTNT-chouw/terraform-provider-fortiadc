@@ -11,10 +11,10 @@ Upload fortiadc certificate crl.
 
 ## Example Usage
 ```hcl
-resource "fortiadc_certificate_crlupload" "crl_upload_global" { 
-    mkey = "crl_global"
-    cert = "/root/FortiADCTerraform/terr_test/gtsr1.crl"
-    vdom = "global"
+resource "fortiadc_certificate_crlupload" "crl_upload_global" {
+	mkey = "crl_global"
+	cert = "/root/FortiADCTerraform/terr_test/gtsr1.crl"
+	vdom = "global"
 }
 
 ```
