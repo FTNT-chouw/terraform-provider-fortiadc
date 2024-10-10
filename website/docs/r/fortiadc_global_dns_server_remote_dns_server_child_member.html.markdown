@@ -15,7 +15,7 @@ resource "fortiadc_global_dns_server_remote_dns_server_child_member" "dns_server
 	pkey = "test"
 	mkey = "1"
 	addr_type = "ipv4"
-	ip = "192.0.2.0/24"
+	ip = "192.0.2.0"
 	port = "53"
 }
 
