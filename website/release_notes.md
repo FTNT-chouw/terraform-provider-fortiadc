@@ -1,6 +1,72 @@
 Release Notes
 ==============================
 
+Release Version 1.3.2
+--------------------
+
+Release Targets
+---------------
+
+FortiADC Terraform 1.3.2
+
+Features
+---------------
+
+- Add new modules:
+
+  - fortiadc_security_waf
+  - fortiadc_security_waf_adaptive_learning.markdown
+  - fortiadc_security_waf_adaptive_learning_child_url_list
+  - fortiadc_security_waf_advanced_protection
+  - fortiadc_security_waf_advanced_protection_child_advanced_protection_rule
+  - fortiadc_security_waf_allowed_origin
+  - fortiadc_security_waf_allowed_origin_child_allowed_origin_list
+  - fortiadc_security_waf_api_discovery
+  - fortiadc_security_waf_api_discovery_child_api_security_rule
+  - fortiadc_security_waf_cors_headers
+  - fortiadc_security_waf_cors_headers_child_cors_headers_list
+  - fortiadc_security_waf_cors_protection
+  - fortiadc_security_waf_cors_protection_child_cors_rule_list
+
+
+- FortiADC version: v7.6 and v8.0
+
+Notice
+---------------
+
+- For detailed configurations of the new modules, please refer to the internal examples within each module.
+
+==============================
+
+Release Version 1.3.1
+--------------------
+
+Release Targets
+---------------
+
+FortiADC Terraform 1.3.1
+
+Features
+---------------
+
+- Add new modules:
+
+  - fortiadc_global_load_balance_virtual_server_content_routing_attach
+
+- Updated modules:
+
+  - fortiadc_load_balance_http2_profile
+
+
+- FortiADC version: v7.6 and v8.0
+
+Notice
+---------------
+
+- For detailed configurations of the new modules, please refer to the internal examples within each module.
+
+==============================
+
 Release Version 1.3.0
 --------------------
 
