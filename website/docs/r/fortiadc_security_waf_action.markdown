@@ -28,7 +28,7 @@ The following arguments are supported:
 
 * `vdom` - Specifies the vdom to which the data source will be applied when the FortiADC unit is running in VDOM mode. Only one vdom can be specified. If you want to inherit the vdom configuration of the provider, please do not set this parameter.
 * `mkey` - The name of configuration.
-* `action_type` - Select which action FortiADC takes when the conditions are fulfilled for WAF. 
+* `action_type` - Select which action FortiADC takes when the conditions are fulfilled for WAF. Valid values: pass, deny, period-block, redirect, captcha.
 * `deny_code` - The Deny Code option is available if the Action Type is Deny or Period Block.
 * `block_period` - The Period Block option is available if the Action Type is Period Block. Range: 1-3600.
 * `redirect_url` - The Redirect URL option is available if the Action Type is Redirect.

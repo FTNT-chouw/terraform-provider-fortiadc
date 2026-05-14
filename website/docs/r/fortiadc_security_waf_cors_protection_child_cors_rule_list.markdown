@@ -21,7 +21,7 @@ resource "fortiadc_security_waf_cors_protection_child_cors_rule_list" "test" {
 	apply_to_all_cors_traffic = "disable"
 	allowed_origin = "test"
 	insert_allowed_credentials = "enable"
-	allowed_credentials = "flase"
+	allowed_credentials = "false"
 	insert_max_age = "enable"
 	allowed_max_age = "0"
 	allowed_methods = "enable"
